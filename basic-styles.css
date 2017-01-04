@@ -1,0 +1,85 @@
+
+  body {
+    margin: auto;
+    width: 50%;
+    font-family: Arial/Serif/Verdana;
+    font-size: 1.4em;
+    color: lightblue;
+    background-color: rgb(100,100,100);
+    text-align: center;
+  }
+  h1{
+    font-weight: bold;;
+    color: lightblue;
+  }
+  .button {
+    font-size: 4em;
+    font-weight: bold;
+    padding: 20px 30px;
+    color: rgb(0, 210, 200);
+  }
+  .button span {
+    padding: 15px;
+    background: darkblue; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(blue, darkblue); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(blue, darkblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(blue, darkblue); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(blue, darkblue); /* Standard syntax */
+    border-radius: 8px;
+  }
+  .button span:hover {
+    background: blue;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 210, 200);
+  }
+  a:hover {
+    color: lightblue;
+  }
+  form {
+    padding-bottom: 5%;
+  }
+  form, div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 8px;
+    background-color: rgb(90,90,90);
+  }
+  div {
+    padding-bottom: 5%;
+  }
+  input[type=submit] {
+    height: 2em;
+    width: 4em;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  input[type=submit]:hover{
+    background-color: gray;
+  }
+  nav a:hover {
+    color: lightblue;
+  }
+  button[type=submit] {
+    height: 2em;
+    width: 4em;
+    font-size: 0.8em;
+  }
+  input.sign-in {
+    font-size: 1em;
+  }
+  table, th, td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 4px;
+  }
+  table td {
+    table-layout: fixed;
+    width:45px;
+    max-height: 10px;
+    overflow:hidden;
+  }
